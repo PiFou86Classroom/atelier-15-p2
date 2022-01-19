@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Partie 1: initiales",
+      "setup": "",
+      "run": "export DOTNET_CLI_HOME=/home/runner && dotnet run --project HelloAtelier",
+      "input": "Joe\r\nDoe",
+      "output": "Hello JD",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Partie 2: longeur nom",
+      "setup": "",
+      "run": "export DOTNET_CLI_HOME=/home/runner && dotnet run --project HelloAtelier",
+      "input": "Joe\r\nPatate",
+      "output": "Hello JP 6",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
