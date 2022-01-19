@@ -1,4 +1,9 @@
 # Exercice initiation Visual Studio : Section 2
+Clonez ce projet sur votre ordinateur. Au besoin, suivez les instructions de la section précédente.
+
+Ensuite, ouvrez le nouveau projet dans visual studio 2022 en double cliquant sur le fichier de solution Atelier15.sln du nouveau dépot git. 
+
+Vous pouvez comparer votre code de la section 1 à celui fourni. Voyez vous des différences?
 
 ## Partie 1 : Afficher les initiales
 
