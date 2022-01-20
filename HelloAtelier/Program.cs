@@ -1,12 +1,12 @@
 Console.Out.WriteLine("Entrez votre prénom suivi de enter");
-string? prenom = Console.In.ReadLine();
+var prenom = Console.In.ReadLine();
 
 Console.Out.WriteLine("Entrez votre nom suivi de enter");
-string? nom = Console.In.ReadLine();
+var nom = Console.In.ReadLine();
 
-string sortie = "Hello ";
+var sortie = "Hello ";
 sortie += prenom;
 sortie += " ";
 sortie += nom.ToUpper();
 
-Console.WriteLine(sortie);
+Console.Out.WriteLine(sortie);
