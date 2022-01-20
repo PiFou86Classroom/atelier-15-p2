@@ -15,7 +15,7 @@
       "setup": "",
       "run": "export DOTNET_CLI_HOME=/home/runner && dotnet run --project HelloAtelier",
       "input": "Joe\r\nPatate",
-      "output": "Hello JP 6",
+      "output": "Hello JP 9",
       "comparison": "included",
       "timeout": 1,
       "points": null
